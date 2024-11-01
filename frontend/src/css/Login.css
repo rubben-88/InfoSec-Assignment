@@ -1,0 +1,20 @@
+.logo-name {
+    margin: 10px;
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .name {
+        width: min-content;
+    }
+}
+
+.login-form {
+    margin: 10px;
+
+    .username {
+        width: 200px;
+    }
+}

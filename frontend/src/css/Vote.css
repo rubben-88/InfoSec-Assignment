@@ -1,0 +1,34 @@
+.vote-form {
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+.vote-form>*:nth-child(n) {
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+.vote-form>*:last-child {border-right: none;}
+
+.form-element {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+}
+
+.candidates-list {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.at-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit-button-wrapper {
+    justify-content: flex-end;
+    display: flex;
+}
